@@ -1,4 +1,3 @@
-@import url('https://raw.githack.com/EduardoFSilva/TemaDiscord/master/XLIV.theme.css');
 
 /*CORES REFERENTES A BLOCOS DE CODIGO*/
 
@@ -9,8 +8,15 @@
 	color: white;
 }
 
+
+/*Javascript*/
 .hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string{
 	color: #42ffef;
 }
 
-.hljs-built_in, .hljs-deletion
+.hljs-built_in, .hljs-deletion{
+	color: red;
+}
+.hljs-addition, .hljs-keyword, .hljs-selector-tag {
+    color: #ffff00;
+}
