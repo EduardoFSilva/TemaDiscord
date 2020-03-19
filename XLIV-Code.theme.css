@@ -1,0 +1,16 @@
+@import url('https://raw.githack.com/EduardoFSilva/TemaDiscord/master/XLIV.theme.css');
+
+/*CORES REFERENTES A BLOCOS DE CODIGO*/
+
+/*Cor da caixa e texto não formatado*/
+.markup-2BOw-j code{
+	border: solid #000066 2px;
+	background-color: #0000ff22;
+	color: white;
+}
+
+.hljs-doctag, .hljs-literal, .hljs-meta .hljs-meta-string, .hljs-number, .hljs-regexp, .hljs-string{
+	color: #42ffef;
+}
+
+.hljs-built_in, .hljs-deletion
