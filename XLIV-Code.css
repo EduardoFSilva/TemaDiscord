@@ -17,6 +17,6 @@
 .hljs-built_in, .hljs-deletion{
 	color: red;
 }
-.hljs-addition, .hljs-keyword, .hljs-selector-tag {
-    color: #ffff00;
+.hljs-addition, .hljs-keyword, .hljs-selector-tag{
+	color: #ffff00;
 }
