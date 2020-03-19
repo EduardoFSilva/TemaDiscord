@@ -1,0 +1,80 @@
+//META{"name":"XLIV Theme", "version":"1.0", "author":"Eduardu44", "description":"Ola :D"}*//
+
+@import url('https://raw.githack.com/EduardoFSilva/TemaDiscord/master/transparency.css');
+
+@font-face {
+    font-family: "Nasalization RG";
+    src: url(https://raw.githubusercontent.com/EduardoFSilva/TemaDiscord/master/nasalization-rg.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Hemi Head RG";
+  src: url(https://raw.githubusercontent.com/EduardoFSilva/TemaDiscord/master/hemihead.ttf) format("truetype");
+}
+
+/*Imagem De Background*/
+.appMount-3lHmkl {
+    background-image: url(https://raw.githubusercontent.com/EduardoFSilva/TemaDiscord/master/bg.png);
+    background-position: center;
+    background-size: cover;
+    background-color: transparent!important;
+    filter: blur(0px);
+}
+/*.nameWrapper-10v56U .name-2WpE7M{
+    font-family: "Nasalization RG";
+}
+.nameWithActivity-1ceSyU{
+    font-family: "Nasalization RG";
+}*/
+
+/*Container Principal*/
+.theme-dark .container-1D34oG{
+	opacity: 1;
+    background-color: rgba(0,0,0,0);
+	overflow: hide;
+}
+
+/*Nome Lista DM*/
+.name-uJV0GL{
+    font-family: "Nasalization RG";
+	font-size: 12pt;
+    color: white;
+}
+
+/*Subtitutulo Lista DM*/
+.subText-1KtqkB,.subtext-1RtU34{
+	color: #00ffff;
+	font-family: "Hemi Head RG";
+	font-size: 12px;
+	font-weight: bold;
+}
+  
+  /*Creditos Na Barra De Titulo*/
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    /* For credits don't remove */
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    width: 250px;
+    height: 16px;
+    font-family: "Nasalization RG";
+    content: "XLIV Theme By Eduardu44";
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    z-index: 999;
+}
+/*Cor Da Barra de Usuario*/
+
+/*.searchBar-6Kv8R2{
+ background-color: rgba(0,0,119,0.5);
+}*/
+
+
+.blockquoteDivider-2hH8H6 {
+	background-color: #0000ff;
+}
+.theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG{
+	overflow: auto;
+}
